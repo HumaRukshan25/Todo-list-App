@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   /* background-color: rgb(11, 11, 12);*/
+    background-image: url("background-image.jfif");
+    background-repeat: repeat;
+    /*background-size: cover;*/
+    
+}
+
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(178, 145, 232, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+.add-todo {
+    display: flex;
+    justify-content: space-between; /* Add space between elements */
+    align-items: center;
+    margin: 20px 0;
+}
+
+button#addTodo {
+    margin-left: 10px; /* Add margin to the Add button */
+}
+
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.filter-buttons button {
+    margin: 0 5px; /* Add margin to create space between buttons */
+}
+.edit-button {
+    margin-right: 5px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+}
