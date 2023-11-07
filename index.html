@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Todo List</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="app">
-        <h1>Todo List App</h1>
+        <h1>To-Do List</h1>
         <div class="add-todo">
-            <input type="text" id="newTodo" placeholder="Add a new todo">
+            <input type="text" id="newTodo" placeholder="Add a new to-do">
             <button id="addTodo">Add</button>
         </div>
         <div class="filter-buttons">
             <button id="all">All</button>
-
             <button id="completed">Completed</button>
-            
             <button id="not-completed">Not Completed</button>
+        
+
         </div>
         <ul id="todoList"></ul>
+        <div id="storedData"></div>
     </div>
-    <script src="script.js"></script>
+    
+    <script src="/crud.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
 </body>
 </html>

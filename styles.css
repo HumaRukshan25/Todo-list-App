@@ -4,15 +4,20 @@ body {
    /* background-color: rgb(11, 11, 12);*/
     background-image: url("background-image.jfif");
     background-repeat: repeat;
-    /*background-size: cover;*/
+   /*background-size: cover;*/
+    margin-top:70px;
+    /*margin-left:130px;
+    margin-right:130px;*/
     
 }
+
 
 .app {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.808); /* Add a semi-transparent white overlay to the background */
+    color: white; 
     box-shadow: 0 0 10px rgba(178, 145, 232, 0.2);
 }
 
@@ -27,6 +32,7 @@ h1 {
     justify-content: space-between; /* Add space between elements */
     align-items: center;
     margin: 20px 0;
+    color:black;
 }
 
 button#addTodo {
@@ -43,12 +49,17 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: black ;/* Light purple background color */
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #8a2be2; /* Darker purple background color on hover */
+}
+
 
 .filter-buttons {
     display: flex;
@@ -68,9 +79,10 @@ li {
     display: flex;
     justify-content: space between;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid #f4f4f4;
     border-radius: 4px;
     padding: 10px;
     margin: 5px 0;
-    background-color: #f9f9f9;
+    background-color: #fffcfc;
+    color:black;
 }
